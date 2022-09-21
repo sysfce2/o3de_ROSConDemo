@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{25C4F9D0-1EC7-5C38-9D5C-17DB7BBD30A0}",
+            "name": "VacuumMechanismPart01",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VacuumPart01",
+                    "Scene.VacuumPart01.transform",
+                    "Scene.VacuumPart01.UV0",
+                    "Scene.VacuumPart01.VacuumPart01"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "VacuumPart01"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "VacuumMechanismPart01",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VacuumPart01",
+                    "Scene.VacuumPart01.transform",
+                    "Scene.VacuumPart01.UV0",
+                    "Scene.VacuumPart01.VacuumPart01"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{F2E05C04-4DFD-587B-9C41-94D3D692EE99}"
+        }
+    ]
+}

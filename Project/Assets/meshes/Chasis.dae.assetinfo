@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4547E164-5725-5186-82F6-0548C3785C99}",
+            "name": "Chasis",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VehicleChasis",
+                    "Scene.VehicleChasis.transform",
+                    "Scene.VehicleChasis.UV0",
+                    "Scene.VehicleChasis.Chasis"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Chasis"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Chasis",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VehicleChasis",
+                    "Scene.VehicleChasis.transform",
+                    "Scene.VehicleChasis.UV0",
+                    "Scene.VehicleChasis.Chasis"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{3AA98A72-6688-5B5C-8349-548ED4769DC9}"
+        }
+    ]
+}

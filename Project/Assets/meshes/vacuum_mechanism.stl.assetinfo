@@ -1,0 +1,46 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8468D75F-2E3C-5CEE-BCDC-3F834DB56A05}",
+            "name": "vacuum_mechanism",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "<STL_BINARY>",
+                    "<STL_BINARY>.unnamed",
+                    "<STL_BINARY>.unnamed.transform",
+                    "<STL_BINARY>.unnamed.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "vacuum_mechanism",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "<STL_BINARY>",
+                    "<STL_BINARY>.unnamed",
+                    "<STL_BINARY>.unnamed.transform",
+                    "<STL_BINARY>.unnamed.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{377A127B-FF29-527E-A4EC-44694AC0F6DB}"
+        }
+    ]
+}

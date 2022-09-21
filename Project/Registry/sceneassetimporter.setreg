@@ -1,0 +1,34 @@
+{
+	"O3DE":
+	{
+		"SceneAPI":
+		{
+			"AssetImporter":
+			{
+				"SupportedFileTypeExtensions":
+				[
+					".fbx",
+					".stl",
+					".gltf",
+					".glb",
+					".dae"
+				]
+			},
+			"MaterialConverter": 
+			{
+				"Enable": true,
+				"DefaultMaterial": "Materials/Presets/PBR/default_grid.material"
+			},
+			"TangentGenerateComponent":
+			{
+				"DefaultGenerationMethod": "FromSourceScene",
+				"DebugBitangentFlip": false
+			},
+			"SkinRule":
+			{
+				"DefaultMaxSkinInfluencesPerVertex": 8,
+                "DefaultWeightThreshold": 0.001
+			}
+		}
+	}
+}

@@ -48,7 +48,8 @@
                     "Entity_[7184523221940590]",
                     "Entity_[11574632633481582]",
                     "Entity_[16628537830553966]",
-                    "Entity_[17223493880265070]"
+                    "Entity_[17223493880265070]",
+                    "Instance_[9336616645886]/ContainerEntity"
                 ]
             },
             "Component_[14409887347711167786]": {
@@ -1019,7 +1020,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[1961516426450979]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -1089,7 +1090,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[1961525016385571]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -1411,7 +1412,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[1961533606320163]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -1632,7 +1633,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 6913475367130875979,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[296994751178328]"
+                        "BoundsEntity": ""
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -2167,7 +2168,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[443127773474452]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2269,7 +2270,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[443132068441748]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2392,7 +2393,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[443136363409044]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -2467,7 +2468,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[550433236397716]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2564,7 +2565,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[550437531365012]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2907,7 +2908,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": "Entity_[550454711234196]"
+                        "BoundsEntity": ""
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -3533,6 +3534,31 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4968815478519136831]/Transform Data/Rotate/2",
                     "value": 66.25052642822266
+                }
+            ]
+        },
+        "Instance_[9336616645886]": {
+            "Source": "Assets/Importer/apple_kraken.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/0",
+                    "value": -43.67038345336914
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/1",
+                    "value": 45.60487365722656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/2",
+                    "value": 2.6641056537628174
                 }
             ]
         },
