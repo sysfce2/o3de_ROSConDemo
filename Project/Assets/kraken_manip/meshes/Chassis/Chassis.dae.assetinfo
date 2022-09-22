@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4996EE22-22E9-51FD-B2D2-C0867FE26129}",
+            "name": "Chassis",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VehicleChassis",
+                    "Scene.VehicleChassis.transform",
+                    "Scene.VehicleChassis.UV0",
+                    "Scene.VehicleChassis.Chassis"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Chassis"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Chassis",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.VehicleChassis",
+                    "Scene.VehicleChassis.transform",
+                    "Scene.VehicleChassis.UV0",
+                    "Scene.VehicleChassis.Chassis"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B96392DC-7FB8-5453-B225-4CFB807E4374}"
+        }
+    ]
+}

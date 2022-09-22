@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{57BAF79F-B35C-50FC-A5E0-5F363CFA9198}",
+            "name": "Frame",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.Frame",
+                    "Scene.Frame.transform",
+                    "Scene.Frame.UV0",
+                    "Scene.Frame.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Frame",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.Frame",
+                    "Scene.Frame.transform",
+                    "Scene.Frame.UV0",
+                    "Scene.Frame.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{D5EC6695-B92D-57E1-93AA-4374BED0335E}"
+        }
+    ]
+}

@@ -49,7 +49,7 @@
                     "Entity_[11574632633481582]",
                     "Entity_[16628537830553966]",
                     "Entity_[17223493880265070]",
-                    "Instance_[9336616645886]/ContainerEntity"
+                    "Instance_[743450554253831]/ContainerEntity"
                 ]
             },
             "Component_[14409887347711167786]": {
@@ -567,14 +567,14 @@
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
                         "Translate": [
-                            -40.99675369262695,
-                            48.68954086303711,
-                            8.361218452453613
+                            -59.60969543457031,
+                            4.9248175621032715,
+                            2.309185028076172
                         ],
                         "Rotate": [
-                            6.025124549865723,
-                            -6.973407745361328,
-                            131.0018768310547
+                            -6.821112155914307,
+                            1.1330199241638184,
+                            -9.386603355407715
                         ]
                     }
                 },
@@ -1020,7 +1020,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[1961516426450979]"
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -1090,7 +1090,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[1961525016385571]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -1412,7 +1412,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[1961533606320163]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -1633,7 +1633,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 6913475367130875979,
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[296994751178328]"
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -2168,7 +2168,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[443127773474452]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2270,7 +2270,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[443132068441748]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2393,7 +2393,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[443136363409044]"
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -2468,7 +2468,7 @@
                         "octave": 2
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[550433236397716]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2565,7 +2565,7 @@
                         "frequency": 2.5765879154205322
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[550437531365012]"
                     }
                 },
                 "Component_[2076736657326245564]": {
@@ -2908,7 +2908,7 @@
                         "RandomSeed": 8
                     },
                     "Previewer": {
-                        "BoundsEntity": ""
+                        "BoundsEntity": "Entity_[550454711234196]"
                     }
                 },
                 "Component_[6450143247629463722]": {
@@ -3447,6 +3447,21 @@
                 }
             ]
         },
+        "Instance_[743450554253831]": {
+            "Source": "Assets/Importer/kraken-manipulator.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1024821045190996080]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1024821045190996080]/Transform Data/Translate/2",
+                    "value": 0.521018385887146
+                }
+            ]
+        },
         "Instance_[7480536662948206]": {
             "Source": "Prefabs/FenceTile.prefab",
             "Patches": [
@@ -3534,31 +3549,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4968815478519136831]/Transform Data/Rotate/2",
                     "value": 66.25052642822266
-                }
-            ]
-        },
-        "Instance_[9336616645886]": {
-            "Source": "Assets/Importer/apple_kraken.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/0",
-                    "value": -43.67038345336914
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/1",
-                    "value": 45.60487365722656
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10375828233799036271]/Transform Data/Translate/2",
-                    "value": 2.6641056537628174
                 }
             ]
         },

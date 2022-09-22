@@ -13980,7 +13980,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 10707924659521035089,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[357799673674485]"
+                        "BoundsEntity": ""
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -14063,7 +14063,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 10707924659521035089,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[357812558576373]"
+                        "BoundsEntity": ""
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -14336,7 +14336,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 10707924659521035089,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[382784004585584]"
+                        "BoundsEntity": ""
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -14419,7 +14419,7 @@
                     "$type": "EditorImageGradientComponent",
                     "Id": 10707924659521035089,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[382814069356656]"
+                        "BoundsEntity": ""
                     },
                     "Configuration": {
                         "StreamingImageAsset": {
@@ -20421,6 +20421,31 @@
         }
     },
     "Instances": {
+        "Instance_[1029049825223376]": {
+            "Source": "Assets/Importer/kraken-manipulator.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10409392605319424475]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10409392605319424475]/Transform Data/Translate/0",
+                    "value": -70.14257049560547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10409392605319424475]/Transform Data/Translate/1",
+                    "value": 43.659263610839844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10409392605319424475]/Transform Data/Translate/2",
+                    "value": 2.826749324798584
+                }
+            ]
+        },
         "Instance_[1061638775136]": {
             "Source": "Prefabs/FenceTile.prefab",
             "Patches": [
