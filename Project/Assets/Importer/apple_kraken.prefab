@@ -21,7 +21,14 @@
             "Component_[17071299421335020589]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 17071299421335020589,
-                "Parent Entity": ""
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        0.0,
+                        -0.09698295593261719,
+                        0.20325708389282227
+                    ]
+                }
             },
             "Component_[17444362140239799283]": {
                 "$type": "EditorEntityIconComponent",
@@ -50,6 +57,167 @@
         }
     },
     "Entities": {
+        "Entity_[24179378887263]": {
+            "Id": "Entity_[24179378887263]",
+            "Name": "Parking",
+            "Components": {
+                "Component_[10745707300597443786]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 10745707300597443786,
+                    "DisplayFilled": false,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        0.7799954414367676
+                    ],
+                    "BoxShape": {
+                        "Configuration": {
+                            "DrawColor": [
+                                1.0,
+                                1.0,
+                                0.7799954414367676
+                            ],
+                            "IsFilled": false,
+                            "Dimensions": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[1108233454126463066]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1108233454126463066
+                },
+                "Component_[11620707770112889449]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11620707770112889449
+                },
+                "Component_[12082676043514489267]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12082676043514489267
+                },
+                "Component_[14754045729472486156]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14754045729472486156,
+                    "Parent Entity": "Entity_[75475350413532]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.16372275352478027,
+                            -0.8275749683380127,
+                            1.5580476522445679
+                        ],
+                        "Rotate": [
+                            -9.998113632202148,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[15938497882653202694]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15938497882653202694
+                },
+                "Component_[17417196628389277508]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17417196628389277508
+                },
+                "Component_[2426001587581061828]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2426001587581061828
+                },
+                "Component_[9544847962351742226]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9544847962351742226
+                },
+                "Component_[9949927833027888821]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9949927833027888821
+                }
+            }
+        },
+        "Entity_[5393191934559]": {
+            "Id": "Entity_[5393191934559]",
+            "Name": "Gripper",
+            "Components": {
+                "Component_[11159106305430731126]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11159106305430731126
+                },
+                "Component_[12665993018237762079]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12665993018237762079
+                },
+                "Component_[13262364880140876884]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13262364880140876884,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[17015930458439874058]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17015930458439874058
+                },
+                "Component_[1801987919506049247]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1801987919506049247
+                },
+                "Component_[2869127934271498525]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2869127934271498525
+                },
+                "Component_[4251549409851825295]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4251549409851825295
+                },
+                "Component_[4303923007737669023]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4303923007737669023
+                },
+                "Component_[703294500506556010]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 703294500506556010,
+                    "GameView": true,
+                    "DisplayFilled": false,
+                    "SphereShape": {
+                        "Configuration": {
+                            "IsFilled": false,
+                            "Radius": 0.10000000149011612
+                        }
+                    }
+                },
+                "Component_[72200838652418388]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 72200838652418388,
+                    "Parent Entity": "Entity_[75393746034908]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.1920928955078125e-7,
+                            1.1920928955078125e-7,
+                            0.5070316791534424
+                        ]
+                    }
+                },
+                "Component_[8946861997072969434]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8946861997072969434
+                }
+            }
+        },
         "Entity_[75380861133020]": {
             "Id": "Entity_[75380861133020]",
             "Name": "wheel_rear_left_link_visual",
@@ -308,6 +476,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 12295880520237820639,
                     "Child Entity Order": [
+                        "Entity_[5393191934559]",
                         "Entity_[75432400740572]"
                     ]
                 },
@@ -2157,6 +2326,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11557544210003172907,
                     "Child Entity Order": [
+                        "Entity_[24179378887263]",
                         "Entity_[75453875577052]",
                         "Entity_[75423810805980]",
                         "Entity_[75440990675164]",
@@ -2225,7 +2395,14 @@
                 "Component_[12921665263434500262]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12921665263434500262,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.7253357172012329,
+                            0.0
+                        ]
+                    }
                 },
                 "Component_[1306489892602480225]": {
                     "$type": "GenericComponentWrapper",
@@ -2334,6 +2511,7 @@
                     "m_template": {
                         "$type": "ROS2RobotControlComponent",
                         "ControlConfiguration": {
+                            "Steering": 1,
                             "Steering": 1
                         }
                     }
