@@ -66,7 +66,43 @@
                 },
                 "Component_[16325347661556016829]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 16325347661556016829
+                    "Id": 16325347661556016829,
+                    "DisabledComponents": [
+                        {
+                            "$type": "EditorColliderComponent",
+                            "Id": 6131507114438886105,
+                            "ColliderConfiguration": {
+                                "MaterialSlots": {
+                                    "Slots": [
+                                        {
+                                            "Name": "DefaultMaterial"
+                                        }
+                                    ]
+                                }
+                            },
+                            "ShapeConfiguration": {
+                                "PhysicsAsset": {
+                                    "Asset": {
+                                        "assetId": {
+                                            "guid": "{4B118B91-95F2-51D3-89FF-B3295ACF5544}",
+                                            "subId": 1435810015
+                                        },
+                                        "assetHint": "assets/apple_crate/apple_crate.pxmesh"
+                                    },
+                                    "Configuration": {
+                                        "PhysicsAsset": {
+                                            "assetId": {
+                                                "guid": "{4B118B91-95F2-51D3-89FF-B3295ACF5544}",
+                                                "subId": 1435810015
+                                            },
+                                            "loadBehavior": "QueueLoad",
+                                            "assetHint": "assets/apple_crate/apple_crate.pxmesh"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 },
                 "Component_[16860679445705058947]": {
                     "$type": "EditorVisibilityComponent",
@@ -79,40 +115,6 @@
                 "Component_[17515991116920437105]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 17515991116920437105
-                },
-                "Component_[6131507114438886105]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 6131507114438886105,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial"
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{4B118B91-95F2-51D3-89FF-B3295ACF5544}",
-                                    "subId": 1435810015
-                                },
-                                "assetHint": "assets/apple_crate/apple_crate.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{4B118B91-95F2-51D3-89FF-B3295ACF5544}",
-                                        "subId": 1435810015
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/apple_crate/apple_crate.pxmesh"
-                                }
-                            }
-                        }
-                    }
                 },
                 "Component_[6965830782696864825]": {
                     "$type": "EditorLockComponent",
