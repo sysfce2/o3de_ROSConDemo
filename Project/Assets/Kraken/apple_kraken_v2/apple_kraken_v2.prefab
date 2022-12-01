@@ -4381,6 +4381,7 @@
                                 }
                             }
                         },
+                        "lidarImplementation": "RobotecGPULidar",
                         "LidarParameters": {
                             "Layers": 16,
                             "Points per layer": 308,
@@ -4391,7 +4392,16 @@
                             "Max range": 50.0
                         },
                         "IgnoreLayer": true,
-                        "IgnoredLayerIndex": 1
+                        "IgnoredLayerIndex": 1,
+                        "ExcludedEntities": [
+                            "Entity_[31384819314500]",
+                            "Entity_[126305263729308]",
+                            "Entity_[126348213402268]",
+                            "Entity_[126365393271452]",
+                            "Entity_[31380524347204]",
+                            "Entity_[126335328500380]",
+                            "Entity_[126296673794716]"
+                        ]
                     }
                 },
                 "Component_[13013301136498148727]": {
