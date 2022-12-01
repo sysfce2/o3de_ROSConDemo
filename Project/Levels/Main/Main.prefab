@@ -36,6 +36,7 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
+                    "Entity_[23389831627181]",
                     "Entity_[1176639161715]",
                     "Entity_[104676312987105]",
                     "Entity_[1090499316769908]",
@@ -1366,6 +1367,72 @@
                                         0.0
                                     ]
                                 ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[23389831627181]": {
+            "Id": "Entity_[23389831627181]",
+            "Name": "GroundPlane",
+            "Components": {
+                "Component_[1000196669557110232]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1000196669557110232
+                },
+                "Component_[10143267250590379044]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10143267250590379044
+                },
+                "Component_[12151003061284699984]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12151003061284699984
+                },
+                "Component_[1376882796531413605]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1376882796531413605
+                },
+                "Component_[16087032519009446667]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16087032519009446667,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -13.887239456176758,
+                            14.017075538635254,
+                            -0.00205838680267334
+                        ],
+                        "UniformScale": 100.0
+                    }
+                },
+                "Component_[18167289693158315311]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18167289693158315311
+                },
+                "Component_[3333433132790267747]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3333433132790267747
+                },
+                "Component_[7939249910075373959]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7939249910075373959
+                },
+                "Component_[8470333830018624918]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8470333830018624918
+                },
+                "Component_[9388760962657166464]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9388760962657166464,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{21839E4C-2A3B-538A-9D48-D04A157DD675}",
+                                    "subId": 276194588
+                                },
+                                "assetHint": "materialeditor/viewportmodels/plane_3x3.azmodel"
                             }
                         }
                     }
